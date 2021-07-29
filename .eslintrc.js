@@ -12,6 +12,9 @@ module.exports = {
     rules: {
         'semi': 2,
         'indent': ['warn', 4]
-    }
+    },
+    ignorePatterns: [
+        '*.config.js',
+    ],
 };
-  
+

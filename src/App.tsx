@@ -1,11 +1,13 @@
 import React from 'react';
+import Nav from './ui/layout/Nav';
 import Main from './ui/layout/Main';
-import Navbar from './ui/layout/Navbar';
+
+import './ui/stylesheets/app.css';
 
 const App: React.FC = () => {
     return (
         <div className="App">
-            <Navbar />
+            <Nav />
             <Main />
         </div>
     );
